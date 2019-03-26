@@ -1,0 +1,17 @@
+
+logging:
+  level:
+    root: debug
+
+datasource:
+  1:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.174.174:3306/test?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&serverTimezone=GMT%2b8
+    username: root
+    password: input1
+  
+  2:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.174.174:3306/etcpdbv_nest_twobest?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&serverTimezone=GMT%2b8
+    username: root
+    password: input1
